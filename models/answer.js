@@ -4,7 +4,10 @@ ObjectId = Schema.Types.ObjectId,
 Mixed = Schema.Types.Mixed;
 
 var schema = Schema({
-
+  mode: {
+    type:String,
+  },
+  
   present: {
     type: Boolean,
   },
