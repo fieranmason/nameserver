@@ -5,10 +5,6 @@ Mixed = Schema.Types.Mixed;
 
 var schema = Schema({
 
-  _id: {
-    type: ObjectId,
-  },
-
   first: {
     type: String,
   },
