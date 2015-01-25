@@ -7,6 +7,10 @@ var schema = Schema({
   mode: {
     type:String,
   },
+
+  sequence: {
+    type:Number,
+  },
   
   present: {
     type: Boolean,

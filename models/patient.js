@@ -6,7 +6,11 @@ Mixed = Schema.Types.Mixed;
 var schema = Schema({
 
   first: {
-    type: String,
+    type:String,
+  },
+
+  middle: {
+    type:String,
   },
 
   last: {
